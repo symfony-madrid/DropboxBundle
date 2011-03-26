@@ -1,0 +1,3 @@
+_dropbox_home:
+    pattern:  /dropbox
+    defaults: { _controller: SfMadridDropboxBundle:Default:index }
