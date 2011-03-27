@@ -8,6 +8,7 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
+
         
         $consumer='q2ary33ayixq8p3';
         $secret='fulpfpegg1s70fm';
@@ -36,5 +37,6 @@ class DefaultController extends Controller
     public function viewAction () {
 
 
+        return $this->render('SfMadridDropboxBundle:Default:index.html.twig');
     }
 }
